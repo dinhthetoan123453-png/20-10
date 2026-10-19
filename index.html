@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <title>20/10 Yêu Thương • Nữ Sinh 11A2 K48 • THPT Lạng Giang Số 3</title>
+  <meta name="description" content="Món quà bất ngờ chúc mừng ngày 20/10 dành tặng các bạn nữ lớp 11A2 Khóa 48 - Trường THPT Lạng Giang Số 3">
+  <meta name="theme-color" content="#fff0f3">
+
+  <!-- Google Fonts: Comfortaa, Be Vietnam Pro, Dancing Script, Playfair Display -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Comfortaa:wght@400;600;700&family=Dancing+Script:wght@600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Ambient Dreamy Canvas (Floating Petals & Fairy Dust) -->
+  <canvas id="ambient-canvas"></canvas>
+
+  <!-- Background Audio (Romantic Piano Instrumental - River Flows in You) -->
+  <audio id="bg-audio" preload="auto" loop>
+    <source src="music.mp3?v=3" type="audio/mpeg">
+  </audio>
+
+  <!-- Main Animated Stage -->
+  <main class="stage-viewport">
+
+    <!-- PHASE 0: CHẠM MỞ ĐẦU (GENTLE START) -->
+    <section class="stage-phase active" id="phase-start">
+      <div class="sweet-welcome-card">
+        <div class="sparkle-icon">✨</div>
+        <span class="sweet-sub">20 • 10 • THPT LẠNG GIANG SỐ 3</span>
+        <h1 class="welcome-heading">
+          Gửi Những Đóa Hoa<br>
+          <span class="pink-gradient">11A2 Khóa 48</span>
+        </h1>
+        <p class="welcome-quote">
+          “Tháng Mười dịu dàng hơn khi có các bạn, và 11A2 ấm áp nhất là khi thấy nụ cười của các cô gái K48 Lạng Giang Số 3.”
+        </p>
+        <button class="btn-start-magic" id="btn-start-magic">
+          <span class="btn-shine"></span>
+          <span>Chạm để mở món quà bí mật ♡</span>
+        </button>
+        <div class="headphone-tip">
+          <span>Hãy bật âm lượng để cảm nhận giai điệu trọn vẹn nhé ✨</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- PHASE 1: CHỮ TỰ ĐỘNG BAY VÀO GHÉP LẠI (AUTO ASSEMBLING TEXT) -->
+    <section class="stage-phase" id="phase-assemble-text">
+      <div class="assemble-text-container">
+        <div class="assembled-line line-class" id="line-class"></div>
+        <div class="assembled-line line-main" id="line-main"></div>
+        <div class="assembled-line line-sub" id="line-sub"></div>
+        <div class="text-sparkle-halo" id="text-sparkle-halo"></div>
+      </div>
+    </section>
+
+    <!-- PHASE 2: CÁC BÔNG HOA ĐA SẮC TO ĐẸP BAY RA RỒI HỢP THÀNH BÓ HOA (DYNAMIC ASSEMBLED BOUQUET) -->
+    <section class="stage-phase" id="phase-gather-bouquet">
+      <div class="gather-arena" id="gather-arena">
+        
+        <!-- Individual Big Vibrant Flying Flowers -->
+        <div class="flying-flowers-layer" id="flying-flowers-layer"></div>
+
+        <!-- The Dynamic Composed Bouquet (Built directly from assembling flowers) -->
+        <div class="composed-bouquet-stage" id="composed-bouquet-stage">
+          <div class="bouquet-soft-glow"></div>
+
+          <!-- Assembled Flowers Container -->
+          <div class="bouquet-foliage-base" id="bouquet-foliage-base"></div>
+          <div class="bouquet-flowers-cluster" id="bouquet-flowers-cluster"></div>
+          <div class="bouquet-satin-ribbon" id="bouquet-satin-ribbon"></div>
+
+          <div class="bouquet-ribbon-tag" id="bouquet-tag">
+            <span class="ribbon-text">Dành tặng phái đẹp 11A2 K48 • THPT Lạng Giang Số 3 ♡</span>
+          </div>
+
+          <button class="btn-proceed-letter" id="btn-proceed-letter">
+            <span>Mở bức thư gửi riêng bạn ✉</span>
+          </button>
+        </div>
+
+        <canvas id="bouquet-confetti-canvas"></canvas>
+      </div>
+    </section>
+
+    <!-- PHASE 3: BỨC THƯ MỞ RA (REALISTIC ENVELOPE & LIVE HANDWRITING LETTER) -->
+    <section class="stage-phase" id="phase-letter">
+      
+      <!-- Dreamy Ambient Floating Blossoms & Fairy Foliage around the letter -->
+      <div class="letter-ambient-backdrop" id="letter-ambient-backdrop">
+        <div class="ambient-deco-flower deco-flower-1"><img src="flower_pink_rose.png" alt="Rose"></div>
+        <div class="ambient-deco-flower deco-flower-2"><img src="flower_sunflower.png" alt="Sunflower"></div>
+        <div class="ambient-deco-flower deco-flower-3"><img src="flower_purple_peony.png" alt="Peony"></div>
+        <div class="ambient-deco-flower deco-flower-4"><img src="flower_white_daisy.png" alt="Daisy"></div>
+        <div class="ambient-deco-foliage deco-foliage-1"><img src="bouquet_foliage.png" alt="Leaf"></div>
+        <div class="ambient-deco-foliage deco-foliage-2"><img src="bouquet_foliage.png" alt="Leaf"></div>
+      </div>
+
+      <div class="letter-stage-container">
+        
+        <!-- Floating Floral Burst Layer When Letter Opens -->
+        <div class="letter-burst-flowers-layer" id="letter-burst-flowers-layer"></div>
+
+        <!-- Realistic 3D Envelope Wrapper -->
+        <div class="realistic-envelope-wrapper" id="envelope-wrapper">
+          <div class="realistic-envelope" id="envelope-container">
+            
+            <!-- Envelope Back Pocket with Textured Lining -->
+            <div class="env-back-lining"></div>
+
+            <!-- Foldable Top Flap with Wax Seal -->
+            <div class="env-top-flap" id="env-top-flap">
+              <div class="wax-seal-realistic" id="gold-wax-seal">
+                <div class="wax-seal-inner">
+                  <span class="seal-text">11A2</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Front Triangular Folds -->
+            <div class="env-side-fold env-left-fold"></div>
+            <div class="env-side-fold env-right-fold"></div>
+            <div class="env-bottom-fold"></div>
+
+          </div>
+
+          <div class="envelope-guide-text" id="envelope-guide-text">
+            <span>Chạm vào con dấu sáp vàng để mở thư ♡</span>
+          </div>
+        </div>
+
+        <!-- Realistic Unfolded Parchment Letter with Live Handwriting Effect -->
+        <div class="parchment-letter-modal hidden" id="unfolded-letter-card">
+          
+          <!-- Cute Top Floating Header Tag above letter -->
+          <div class="letter-top-floating-badge">
+            <span class="badge-sparkle">🌸</span>
+            <span>THPT LẠNG GIANG SỐ 3 • NIÊN KHÓA K48</span>
+            <span class="badge-sparkle">🌸</span>
+          </div>
+
+          <div class="parchment-paper" id="parchment-paper">
+            
+            <!-- Cute Washi Tape at Top -->
+            <div class="letter-washi-tape"></div>
+
+            <!-- Floral Corner Accents on the letter itself -->
+            <div class="letter-corner-flower corner-top-left">
+              <img src="flower_pink_rose.png" alt="Rose" class="flower-corner-img">
+              <img src="bouquet_foliage.png" alt="Leaf" class="foliage-corner-img">
+            </div>
+
+            <div class="letter-corner-flower corner-bottom-left">
+              <img src="flower_white_daisy.png" alt="Daisy" class="flower-corner-img">
+            </div>
+
+            <!-- Vintage Postage Stamp & Postmark Combo -->
+            <div class="vintage-postal-group">
+              <div class="vintage-postage-stamp">
+                <div class="stamp-inner">
+                  <span class="stamp-country">LG3 • 20/10</span>
+                  <img src="flower_red_rose.png" alt="Rose Stamp" class="stamp-flower-img">
+                  <span class="stamp-price">11A2</span>
+                </div>
+              </div>
+              <div class="vintage-postmark">
+                <div class="postmark-circle">
+                  <span class="postmark-school">LG3</span>
+                  <span class="postmark-class">11A2 • K48</span>
+                  <span class="postmark-date">20.10</span>
+                </div>
+                <div class="postmark-wavy-lines">
+                  <span></span><span></span><span></span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Inner Decorative Vintage Frame -->
+            <div class="parchment-inner-frame">
+
+              <!-- Live Typing Target Heading -->
+              <h2 class="letter-heading" id="typewriter-heading"></h2>
+
+              <!-- Live Typing Target Body -->
+              <div class="letter-body-text" id="typewriter-body"></div>
+
+              <!-- Delicate Floral Divider -->
+              <div class="letter-floral-divider" id="letter-floral-divider">
+                <span class="divider-line"></span>
+                <span class="divider-motif">❀ ⋆ 11A2 K48 ⋆ ❀</span>
+                <span class="divider-line"></span>
+              </div>
+
+              <!-- Calligraphy Signature Row (Revealed after typing) -->
+              <div class="letter-signature-row hidden" id="letter-signature-row">
+                <span class="sign-script">Thương mến gửi tặng,</span>
+                <span class="sign-name">Tập thể Boys 11A2 K48 • THPT Lạng Giang Số 3</span>
+                <div class="sign-mini-seal">
+                  <span>LG3</span>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- Sweet Floating Footer Message below the letter -->
+          <div class="letter-bottom-floating-note">
+            <span>Mến chúc các bạn nữ 11A2 K48 luôn ngập tràn niềm vui và hạnh phúc ♡</span>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
