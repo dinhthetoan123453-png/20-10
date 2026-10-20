@@ -1,5 +1,5 @@
 /* ==========================================================================
-   20/10 Rực Rỡ • 11A2 K48 - Realistic Pastel Experience
+   20/10 Yêu Thương • Dành Tặng Quỳnh Nga - Realistic Pastel Experience
    Tự Động Ghép Chữ • Hoa Thật Đa Sắc Ghép Thành Bó • Thư Viết Tay Tự Động
    ========================================================================== */
 
@@ -1055,7 +1055,8 @@ html, body {
 }
 
 .postmark-class {
-  font-size: 7.5px;
+  font-size: 6.8px;
+  white-space: nowrap;
 }
 
 .postmark-date {

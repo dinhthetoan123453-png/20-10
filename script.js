@@ -1,5 +1,5 @@
 /* ==========================================================================
-   20/10 Rực Rỡ • 11A2 K48 - Dynamic Composed Bouquet & Live Writing Script
+   20/10 Yêu Thương • Dành Tặng Quỳnh Nga - Dynamic Composed Bouquet & Live Writing Script
    1. Chữ tự động bay vào ghép -> 2. Hoa to đa sắc bay ra rồi hợp thành 1 bó hoa -> 3. Mở thư viết tay
    ========================================================================== */
 
@@ -210,9 +210,9 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function startAutoTextAssembly() {
-    const spans1 = createCharSpans('11A2 K48 • THPT LẠNG GIANG 3', lineClass);
+    const spans1 = createCharSpans('GỬI BẠN QUỲNH NGA YÊU THƯƠNG', lineClass);
     const spans2 = createCharSpans('CHÚC MỪNG 20/10', lineMain);
-    const spans3 = createCharSpans('Gửi Những Đóa Hoa Rạng Rỡ & Tỏa Sáng Nhất ♡', lineSub);
+    const spans3 = createCharSpans('Đóa Hoa Xinh Đẹp & Dịu Dàng Nhất ♡', lineSub);
 
     let delay = 300;
 
@@ -519,12 +519,12 @@ document.addEventListener('DOMContentLoaded', () => {
   let skipTypingTriggered = false;
 
   const LETTER_CONTENT = {
-    heading: "Gửi những đóa hoa tuyệt vời của 11A2 K48,",
+    heading: "Gửi Quỳnh Nga thân mến,",
     paragraphs: [
-      "Hôm nay là 20/10, ngày tôn vinh phái đẹp, và với tập thể nam sinh 11A2 Khóa 48 trường THPT Lạng Giang Số 3, các bạn chính là những đóa hoa rạng ngời và dịu dàng nhất!",
-      "Cảm ơn các bạn vì luôn mang đến sự tươi vui, ấm áp và những tiếng cười rộn rã cho lớp mình. Dù là những giờ học căng thẳng trước kỳ thi hay những buổi sinh hoạt dưới mái trường THPT Lạng Giang 3 thân yêu, 11A2 chỉ thực sự trọn vẹn khi có nụ cười của các bạn.",
-      "Chúc các bạn luôn rạng rỡ, tự tin theo đuổi ước mơ của chính mình, đạt thật nhiều điểm 9 điểm 10 trong mọi kỳ thi và luôn mỉm cười hạnh phúc mỗi ngày.",
-      "“Thanh xuân của chúng ta đẹp nhất chính là vì có nhau dưới mái trường THPT Lạng Giang Số 3 thân thương này!”"
+      "Hôm nay là 20/10, ngày tôn vinh phái đẹp, và với tớ, cậu chính là một đóa hoa vô cùng rạng ngời và dịu dàng!",
+      "Cảm ơn Quỳnh Nga vì luôn mang đến sự tươi vui, nụ cười tỏa nắng và nguồn năng lượng tích cực, ấm áp cho mọi người xung quanh.",
+      "Chúc cậu có một ngày 20/10 thật nhiều niềm vui, luôn xinh đẹp, hạnh phúc, tự tin theo đuổi những ước mơ của mình và luôn gặp thật nhiều may mắn trong cuộc sống.",
+      "“Mong rằng nụ cười rạng rỡ sẽ mãi luôn nở trên môi Quỳnh Nga, không chỉ riêng hôm nay mà trong tất cả những ngày sau này nữa nhé!”"
     ]
   };
 
